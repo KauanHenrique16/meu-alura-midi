@@ -1,0 +1,23 @@
+:root {
+    --cinza: #aaa;
+    --vermelha: #fc001d;
+    --vermelha-escura: rgb(0, 247, 255);
+    --branca: #0e0d0d;
+    --luz: rgb(229, 255, 0);
+  }
+  
+  body {
+    align-items: center;
+    background: linear-gradient(45deg, #FF00FF 0%, #fc001d 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: var(--branca);
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
